@@ -53,6 +53,7 @@ FeedPage.getLayout = function getlayout(page) {
         description: CONFIG.blog.description,
         type: "website",
         url: CONFIG.link,
+        image: CONFIG.profile.image,
       }}
     >
       {page}
