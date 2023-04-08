@@ -4,17 +4,26 @@ const CONFIG = {
     name: "김미소",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "frontend developer",
-    bio: "I like frontend.",
-    email: "",
+    bio: "천천히 가더라도 앞으로 나아가자",
+    email: "kimms9725@naver.com",
     linkedin: "",
     github: "cozups",
     instagram: "",
   },
   projects: [
     {
-      name: ``,
-      href: "",
+      name: `TogeFit`,
+      href: "https://github.com/cozups/TogeFit",
     },
+    {
+      name: `DataVisualize`,
+      href: "https://github.com/LifeIsAlone/DataVisualize",
+    },
+    {
+      name: `5ot`,
+      href: "https://github.com/cozups/5ot",
+    },
+    
   ],
   // blog setting (required)
   blog: {
