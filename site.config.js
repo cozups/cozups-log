@@ -23,7 +23,6 @@ const CONFIG = {
       name: `5ot`,
       href: "https://github.com/cozups/5ot",
     },
-    
   ],
   // blog setting (required)
   blog: {
@@ -34,7 +33,7 @@ const CONFIG = {
 
   // CONFIG configration (required)
   link: "https://cozups-log.vercel.app/",
-  since: '', // If leave this empty, current year will be used.
+  since: "", // If leave this empty, current year will be used.
   lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
   seo: {
@@ -76,4 +75,5 @@ const CONFIG = {
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
 }
-module.exports = CONFIG
+
+module.exports = { CONFIG }
