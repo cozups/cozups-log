@@ -58,11 +58,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-<<<<<<< HEAD
-      repo: "cozups/cozups-log",
-=======
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
->>>>>>> upstream/main
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
